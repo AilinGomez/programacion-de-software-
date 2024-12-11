@@ -1,0 +1,21 @@
+cadena[20] usuario
+cadena[20] clave, rclave
+inicio 
+escriba "ingrese su usuario"
+llamar nueva_linea
+lea usuario
+llamar nueva_linea
+escriba "ingrese su clave"
+llamar nueva_linea
+lea clave 
+si (usuario="linnie") y (clave="crystal") entonces
+escriba "repita su clave"
+llamar nueva_linea 
+lea rclave
+si (rclave=clave) entonces
+escriba "bienvenido"
+sino
+escriba "usuario o clave invalida"
+fin si 
+fin si
+fin 

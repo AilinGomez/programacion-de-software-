@@ -1,0 +1,12 @@
+entero numero1,coco
+inicio
+coco<-1
+numero1<-1
+  mientras (numero1<5) haga
+    escriba "voy en:", numero1
+    llamar nueva_linea
+    lea numero1
+    lea coco
+  fin mientras
+    escriba "coco", coco
+fin

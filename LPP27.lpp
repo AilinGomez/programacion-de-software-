@@ -1,0 +1,11 @@
+arreglo [7] de cadena [8] gallinas
+arreglo [7] de cadena [12] pollos
+arreglo [2] de entero kiko
+entero numero
+inicio
+  escriba "ingreso de elementos del arreglo"
+  llamar nueva_linea
+  escriba "por favor ingrese el contenido del arreglo de tipo cadena (maximo 12 caracteres)"
+  lea pollos [1]
+  escriba pollos [1]
+fin

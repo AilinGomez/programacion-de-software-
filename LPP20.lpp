@@ -1,0 +1,7 @@
+cadena [20] x
+entero n 
+inicio
+  x<-"rocio piniila"
+  n<-longitud(x)
+  escriba "la longitud  de la cadena",x " es:" n
+fin

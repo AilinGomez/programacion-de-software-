@@ -1,0 +1,71 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+40
+"ejercicio para ingresar mi información"
+4
+1
+19
+"ingresa tu nombre"
+5
+1
+7
+armazon
+4
+1
+26
+"ingresa el primer numero"
+5
+1
+7
+numero1
+4
+1
+27
+"ingresa el segundo numero"
+5
+1
+7
+numero2
+6
+3
+4
+suma
+15
+numero1+numero2
+6
+resta 
+15
+numero1-numero2
+14
+multiplicacion
+15
+numero1*numero2
+6
+1
+8
+division
+15
+numero1/numero2
+4
+1
+39
+"hola ", armazon, " la suma es: ", suma
+4
+1
+21
+"la resta es: ",resta
+4
+1
+39
+"la multiplicacion es: ",multiplicacion
+4
+1
+27
+"la division es: ",division
+1

@@ -1,0 +1,8 @@
+entero numero
+cadena[30] joropo
+inicio
+  joropo<-hola
+  para numero<-1 hasta 5 haga
+    escriba joropo
+    llamar nueva_linea
+  fin para 

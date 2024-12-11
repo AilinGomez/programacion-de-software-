@@ -1,0 +1,41 @@
+arreglo [10] de cadena [10] n1
+arreglo [10] de entero n2
+arreglo [10] de real n3
+arreglo [10] de caracter n4
+entero numero
+inicio
+  escriba "ingreso de elementos del arreglo"
+  llamar nueva_linea
+  escriba "por favor ingrese el contenido del arreglo de tipo cadena (maximo 12 caracteres)"
+  llamar nueva_linea
+  para numero<-1 hasta 10 haga 
+  escriba "ingrese el [",numero,"] arreglo"
+    llamar nueva_linea
+    lea n1 [numero]
+  fin para
+  llamar nueva_linea 
+  escriba "por favor ingrese el contenido del arreglo tipo entero"
+  llamar nueva_linea
+  para numero<-1 hasta 10 haga 
+  escriba "ingrese el [",numero,"] arreglo"
+    llamar nueva_linea
+    lea n2 [numero]
+  fin para
+  llamar nueva_linea 
+  escriba "por favor ingrese el contenido del arreglo tipo real"
+  para numero<-1 hasta 10 haga 
+  escriba "ingrese el [",numero,"] arreglo"
+    llamar nueva_linea
+    lea n3 [numero]
+  fin para
+  llamar nueva_linea 
+  escriba "por favor ingrese el contenido del arreglo tipo caracter"
+  para numero<-1 hasta 10 haga 
+  escriba "ingrese el [",numero,"] arreglo"
+    llamar nueva_linea
+    lea n4 [numero]
+  fin para
+  para numero<-1 hasta 10 haga 
+  llamar nueva linea
+  escriba "la posicion [",numero,"] de el arreglo cadena, tiene el elemento",n1 [numero]
+fin

@@ -1,0 +1,29 @@
+entero edad
+cadena[30] genero
+inicio
+escriba "bienvenido a los baños publicos"
+llamar nueva_linea 
+escriba "ingrese su genero" 
+llamar nueva_linea 
+lea genero 
+  si (genero ="hombre") o (genero ="mujer")entonces 
+  escriba "cual es su edad"
+  llamar nueva_linea 
+  lea edad
+     si (genero ="hombre") y(edad >12) entonces
+     escriba "bienvenido al baño para hombres"
+     sino
+          si  (genero ="hombre") y (edad <5) entonces
+          escriba "bienvenido al baño para niños"
+           sino 
+              si (genero ="mujer") y (edad >12) entonces
+              escriba "bienvenida al baño de mujeres "
+              sino 
+                  si (genero="mujer") y (edad <5) entonces
+                  escriba "bienvenida al baño de niñas"
+            fin si 
+         fin si
+      fin si
+   fin si
+  fin si
+fin 

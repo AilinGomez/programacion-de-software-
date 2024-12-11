@@ -1,0 +1,16 @@
+entero edad
+cadena[2] documento
+inicio
+escriba "ingrese su edad"
+llamar nueva_linea
+lea edad 
+si (edad >=18) entonces 
+escriba "bienvenido al cine para adultos"
+sino
+si (edad>=11) entonces
+escriba "bienvenido al cine para adolecentes"
+sino
+escriba "edad no permitida"
+fin si
+fin si
+fin 

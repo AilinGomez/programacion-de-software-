@@ -1,0 +1,57 @@
+entero n1,n2,n3
+inicio
+n1<-500
+n2<-34
+n3<-90
+  si ((n1<n2)y(n2<n3)) entonces
+    escriba "el numero mayor es:",n1
+    llamar nueva_linea
+    escriba "el numero mayor es:",n2
+    llamar nueva_linea
+    escriba "el numero mayor es:",n3
+  sino
+    si ((n1>n2)y(n2>n3)) entonces
+      escriba "el numero mayor es:",n1
+      llamar nueva_linea
+      escriba "el numero mayor es:",n2
+      llamar nueva_linea
+      escriba "el numero mayor es:",n3
+    sino
+      si ((n1>n2)y(n2<n3)) entonces
+        escriba "el numero mayor es:",n1
+        llamar nueva_linea
+        escriba "el numero mayor es:",n2
+        llamar nueva_linea
+        escriba "el numero mayor es:",n3
+      sino
+        si ((n1<n2)y(n1>n3)y(n1<n3)) entonces
+          escriba "el numero mayor es:",n1
+          llamar nueva_linea
+          escriba "el numero mayor es:",n2
+          llamar nueva_linea
+          escriba "el numero mayor es:",n3
+        sino
+          si ((n1<n2)y(n2>n3)y(n1>n3)) entonces
+            escriba "el numero mayor es:",n1
+            llamar nueva_linea
+            escriba "el numero mayor es:",n2
+            llamar nueva_linea
+            escriba "el numero mayor es:",n3
+          sino
+            si ((n1>n2)y(n2<n3)) entonces 
+              escriba "el numero mayor es:",n1
+              llamar nueva_linea
+              escriba "el numero mayor es:",n2
+              llamar nueva_linea
+              escriba "el numero mayor es:",n3
+            sino 
+              escriba "hola"
+            fin si
+          fin si
+        fin si
+      fin si
+    fin si
+  fin si
+fin 
+            
+           

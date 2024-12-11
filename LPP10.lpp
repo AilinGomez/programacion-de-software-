@@ -1,0 +1,14 @@
+entero x,h
+inicio
+  para x<-1 hasta 10 haga
+  //  x<-x+1
+    escriba x
+    llamar nueva_linea 
+    x<-x+1 
+  fin para
+    para x<-1 hasta 10 haga
+      x<-x+1
+      escriba x 
+      llamar nueva_linea
+    fin para
+fin

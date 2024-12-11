@@ -1,0 +1,16 @@
+cadena[30] armazon
+entero numero1,numero2,resultado
+inicio
+escriba "ejercicio para ingresar mi informacion"
+llamar nueva_linea 
+escriba "ingresa tu nombre"
+llamar nueva_linea
+lea armazon
+escriba "ingrese el primer numero"
+llamar nueva_linea
+lea numero1
+escriba "ingrese el segundo numero"
+lea numero2
+resultado<-numero1+numero2
+escriba "hola ", armazon, " la suma es: ", resultado
+fin 
